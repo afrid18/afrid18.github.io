@@ -1,4 +1,28 @@
 html {
-    background : #e5e5e5;
+    background : #ddcd96;
 }
 
+body {
+  width: 96vw;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 4vw 4vw solid blue;
+}
+
+.myImage img{
+    border-radius : 50%;
+}
+
+
+.homeTitle {
+    font-size: 10vw;
+    font-weight: 1000;
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.homeTitle  a {
+    text-decoration: none;
+}
