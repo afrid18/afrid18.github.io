@@ -2,32 +2,33 @@ body {
   background-color: #ddcd96;
   width: 96vw;
   margin: 0 auto;
-  padding: 0 20px 20px 20px;
-  border: 4vw 4vw solid blue;
+  padding: 0 20px 20px 20px;;
 }
-
 
 .titlediv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-.myImage {
-    margin: 3vw;
-}
-.myImage img{
-    border-radius : 50%;
-}
-.homeTitle {
-    font-size: 10vw;
-    font-weight: 1000;
-    font-family: 'Roboto Mono', monospace;
-    margin: 20px;
+    background-color: #ddcd96;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
     text-align: center;
 }
 
-.homeTitle  a {
+.titleImage {
+    margin: 3vw auto 0 auto;
+}
+.titleImage img{
+    border-radius : 50%;
+}
+
+.titleText {
+    font-size: 8vw;
+    font-weight: 1000;
+    font-family: 'Noto Sans Mono', monospace;
+    margin: 3vw;
+    text-align: center;
+}
+
+.titleText  a {
     text-decoration: none;
+    color: #47424f;
 }
