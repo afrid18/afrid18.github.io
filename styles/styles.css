@@ -6,11 +6,20 @@ body {
   border: 4vw 4vw solid blue;
 }
 
+
+.titlediv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.myImage {
+    margin: 3vw;
+}
 .myImage img{
     border-radius : 50%;
 }
-
-
 .homeTitle {
     font-size: 10vw;
     font-weight: 1000;
