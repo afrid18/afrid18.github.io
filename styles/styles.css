@@ -39,12 +39,12 @@ body {
     color: #ddcd96;
 }
 .logo {
-    font-size: 6vh;
+    font-size: 4vh;
     font-family: 'Noto Sans Mono', monospace;
 }
 
 .logo .big-letters {
-    font-size: 9vh;
+    font-size: 7vh;
 }
 
 .logo a {
