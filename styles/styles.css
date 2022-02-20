@@ -1,14 +1,76 @@
 body {
   background-color: #ddcd96;
+  box-sizing: border-box;
   width: 96vw;
-  margin: 0 auto;
-  padding: 0 20px 20px 20px;;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: inherit;
+    padding: 0 1rem;
+    color: #47424f;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    color: #47424f;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.menu li:hover {
+    font-weight: 900;
+    background-color: #47424f;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.menu li {
+    padding: 5px 14px;
+}
+.menu a {
+    text-decoration: none;
+    color: #47424f;
+}
+.menu a:hover {
+    color: #ddcd96;
+}
+.logo {
+    font-size: 6vh;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.logo .big-letters {
+    font-size: 9vh;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #47424f;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
 }
 
 .titlediv {
     background-color: #ddcd96;
+    position: relative;
     width: 100%;
-    padding: 20px;
+    padding: 2rem 1rem;
     margin: 0 auto;
     text-align: center;
 }
@@ -31,4 +93,11 @@ body {
 .titleText  a {
     text-decoration: none;
     color: #47424f;
+}
+
+
+div.construction {
+    text-align: center;
+    font-size: 5rem;
+    color: red;
 }
