@@ -1,9 +1,14 @@
 body {
-  background-color: #ddcd96;
-  box-sizing: border-box;
-  width: 96vw;
-  margin: 0;
-  padding: 0;
+    font-size: 120%;
+    background-color: #ddcd96;
+    box-sizing: border-box;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -11,20 +16,21 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: inherit;
-    padding: 0.5rem 1rem;
-    color: #47424f;
+    padding: 0.5em 1em;
+
 }
 
 .menu {
     display: flex;
     gap: 1em;
-    font-size: 18px;
+    font-size: 1em;
     color: #47424f;
     font-family: 'Noto Sans Mono', monospace;
 }
 
 .menu li {
-    padding: 5px 14px;
+    padding: 0.1em;
+    list-style: none;
 }
 .menu a {
     text-decoration: none;
@@ -32,22 +38,23 @@ body {
 }
 
 .menu li:hover {
-    font-weight: 1000;
+    font-weight: bold;
     background-color: #47424f;
-    border-radius: 5px;
-    transition: 0.3s ease;
+    border-radius: 0.5em;
+    transition: 0.3s ease-in-out;
 }
 
 .menu li:hover a {
     color: #ddcd96;
 }
 .logo {
-    font-size: 4vh;
+    font-size: 1.5em;
     font-family: 'Noto Sans Mono', monospace;
+    padding: 0.5em;
 }
 
 .logo .big-letters {
-    font-size: 7vh;
+    font-size: 1.5em;
 }
 
 .logo a {
@@ -55,20 +62,18 @@ body {
     color: #47424f;
 }
 
-.navbar li{
-    list-style: none;
-}
-
+/* Disappearing checkbox */
 input[type=checkbox]{
     display: none;
 }
 
 .hamburger {
     display: none;
-    font-size: 24px;
+    font-size: 1.2em;
     user-select: none;
 }
 
+/* Middle part (Centre Image and The bottom Name) */
 .titlediv {
     background-color: #ddcd96;
     position: relative;
