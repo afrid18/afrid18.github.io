@@ -86,23 +86,24 @@ input[type=checkbox]{
 }
 
 .titleImage {
-    margin: 3vw auto 0 auto;
+    margin: 3em auto 0 auto;
 }
 .titleImage img{
     border-radius : 50%;
+    height: auto;
 }
 
 .titleText {
-    font-size: 8vw;
+    font-size: 6em;
     font-weight: 1000;
     font-family: 'Noto Sans Mono', monospace;
-    margin: 3vw;
+    margin: 0.5em auto;
     text-align: center;
 }
 
 .titleText  a {
     text-decoration: none;
-    color: #47424f;
+    color : #47424f;
 }
 
 
