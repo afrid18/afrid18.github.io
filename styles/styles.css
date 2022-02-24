@@ -1,114 +1,77 @@
-body {
-    font-size: 120%;
-    background-color: #ddcd96;
-    box-sizing: border-box;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-}
-
 * {
-    box-sizing: border-box;
+    /* border: 2px solid black; */
 }
 
-.navbar {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: inherit;
-    padding: 0.1em 2em;
-}
-
-.menu {
-    display: flex;
-    gap: 1em;
-    font-size: 1em;
-    color: #47424f;
-    font-family: 'Noto Sans Mono', monospace;
-}
-
-.menu li {
-    padding: 0.1em;
-    list-style: none;
-}
-.menu a {
-    text-decoration: none;
-    color: #47424f;
-}
-
-.menu li:hover {
-    font-weight: bold;
-    background-color: #47424f;
-    border-radius: 0.5em;
-    transition: 0.3s ease-in-out;
-}
-
-.menu li:hover a {
-    color: #ddcd96;
-}
-.logo {
-    font-size: 1.5em;
-    font-family: 'Noto Sans Mono', monospace;
-}
-
-.logo .big-letters {
-    font-size: 1.5em;
-}
-
-.logo a {
-    text-decoration: none;
-    color: #47424f;
-}
-
-/* Disappearing checkbox */
-input[type=checkbox]{
-    display: none;
-}
-
-.hamburger {
-    display: none;
-    font-size: 1.2em;
-    user-select: none;
-}
-
-/* Middle part (Centre Image and The bottom Name) */
-.titlediv {
+body {
     background-color: #ddcd96;
-    width: 100%;
-    top: auto;
-    padding: 2rem 1rem;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.titleImage {
-    margin: 3em auto 0 auto;
-}
-.titleImage img{
-    border-radius : 50%;
-    height: auto;
-}
-
-.titleText {
-    font-size: 6em;
-    font-weight: 1000;
     font-family: 'Noto Sans Mono', monospace;
-    margin: 0.5em auto;
-    text-align: center;
+}
+/* Navbar custom changes */
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: (rgba(52, 16, 74, 0.75),var(--bs-bg-opacity)) !important;
+}
+.logo-img {
+    background: url("../images/logo.png") no-repeat;
+    width: 500px;
+    height: 125px;
 }
 
-.titleText  a {
+
+#menu-btns li a{
     text-decoration: none;
-    color : #47424f;
+    font-size: 1.4em;
+    color: #47424f;
+    margin: 0 10px;
 }
 
+#menu-btns li a:hover{
+    color: #ddcd96;
+    background-color: #47424f;
+    border-radius: 15px;
+    transition: ease;
+}
 
-div.construction {
-    text-align: center;
-    font-size: 5rem;
-    color: red;
+.navbar button.navbar-toggler {
+    border: 2px solid #47424f;
+    color: #47424f;
+}
+
+.image-container img {
+    border-radius: 50%;
+}
+
+/* Media queries */
+
+/* For large Screens */
+@media (min-width: 1200px) {
+
+}
+
+/* for medium screens */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/* For small screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-img {
+        background: url("../images/logo-md.png") no-repeat;
+        width: 250px;
+        height: 63px;
+    }
+    /* .logo-img {
+        background: url("../images/logo-sm.png") no-repeat;
+        width: 75px;
+        height: 75px;
+    } */
+}
+
+/* For extra Small screens */
+@media (max-width: 767px) {
+    .logo-img {
+        background: url("../images/logo-sm.png") no-repeat;
+        width: 75px;
+        height: 75px;
+    }
 }
