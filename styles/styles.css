@@ -3,33 +3,45 @@
 }
 
 body {
+    font-size: 120%;
     background-color: #ddcd96;
     font-family: 'Noto Sans Mono', monospace;
+    margin: 0;
+    padding: 0;
 }
+
 /* Navbar custom changes */
 .bg-light {
     --bs-bg-opacity: 1;
     background-color: (rgba(52, 16, 74, 0.75),var(--bs-bg-opacity)) !important;
 }
-.logo-img {
-    background: url("../images/logo.png") no-repeat;
-    width: 500px;
-    height: 125px;
+#nav-logo{
+    text-decoration: none;
+    color: #47424f;
+    font-size: 3vw;
+    font-family: 'Noto Sans Mono', monospace;
 }
 
+#menu-btns li {
+    list-style:none;
+}
 
-#menu-btns li a{
+#menu-btns a{
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1em;
     color: #47424f;
     margin: 0 10px;
 }
 
-#menu-btns li a:hover{
-    color: #ddcd96;
+#menu-btns li:hover {
+    font-weight: bold;
     background-color: #47424f;
-    border-radius: 15px;
-    transition: ease;
+    border-radius: 0.9em;
+    transition: 0.3s ease-in-out;
+}
+
+#menu-btns li:hover a {
+    color: #ddcd96;
 }
 
 .navbar button.navbar-toggler {
@@ -37,15 +49,30 @@ body {
     color: #47424f;
 }
 
+.navbar-toggler-icon {
+    height: 1em;
+    width: 1em;
+}
+
 .image-container img {
+    max-width: 25%;
     border-radius: 50%;
 }
 
+.name {
+    font-size: 10vw;
+}
+
+.name a {
+    text-decoration: none;
+    font-family: 'Noto Sans Mono', monospace;
+    color: #47424f;
+}
 /* Media queries */
 
 /* For large Screens */
 @media (min-width: 1200px) {
-
+   
 }
 
 /* for medium screens */
@@ -55,23 +82,11 @@ body {
 
 /* For small screens */
 @media (min-width: 768px) and (max-width: 991px) {
-    .logo-img {
-        background: url("../images/logo-md.png") no-repeat;
-        width: 250px;
-        height: 63px;
-    }
-    /* .logo-img {
-        background: url("../images/logo-sm.png") no-repeat;
-        width: 75px;
-        height: 75px;
-    } */
+    
+    
 }
 
 /* For extra Small screens */
 @media (max-width: 767px) {
-    .logo-img {
-        background: url("../images/logo-sm.png") no-repeat;
-        width: 75px;
-        height: 75px;
-    }
 }
+
