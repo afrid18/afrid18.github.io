@@ -15,11 +15,9 @@ body {
     --bs-bg-opacity: 1;
     background-color: (rgba(52, 16, 74, 0.75),var(--bs-bg-opacity)) !important;
 }
-#nav-logo{
-    text-decoration: none;
-    color: #47424f;
-    font-size: 3vw;
-    font-family: 'Noto Sans Mono', monospace;
+
+#nav-logo {
+    visibility: hidden;
 }
 
 #menu-btns li {
@@ -95,5 +93,8 @@ body {
 
 /* For extra Small screens */
 @media (max-width: 767px) {
+    #nav-logo {
+        visibility: visible;
+    }
 }
 
