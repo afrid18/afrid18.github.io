@@ -44,9 +44,19 @@ body {
     color: #ddcd96;
 }
 
+.navbar-toggler {
+    padding: 0.2em 0.2em;
+    border-radius: 50%;
+    font-size: 1.5em;
+    background-color: #000;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+}
 .navbar button.navbar-toggler {
     border: 2px solid #47424f;
-    color: #47424f;
+
 }
 
 .navbar-toggler-icon {
