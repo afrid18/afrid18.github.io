@@ -1,5 +1,6 @@
 * {
     /* border: 2px solid black; */
+    font-weight: 800;
 }
 
 body {
@@ -73,6 +74,15 @@ body {
     font-family: 'Noto Sans Mono', monospace;
     color: #47424f;
 }
+
+.intro {
+    font-weight: 400;
+}
+
+.link-secondary {
+    text-decoration: none;
+}
+
 /* Media queries */
 
 /* For large Screens */
@@ -87,7 +97,6 @@ body {
 
 /* For small screens */
 @media (min-width: 768px) and (max-width: 991px) {
-    
     
 }
 
