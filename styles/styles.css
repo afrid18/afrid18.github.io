@@ -19,6 +19,7 @@ body {
 
 .navbar {
     padding-bottom: 0.2em;
+    padding-top: 0.2em;
 }
 
 #nav-logo {
@@ -81,11 +82,23 @@ body {
 
 .intro {
     font-weight: 400;
+    margin-bottom: 3em;
+    text-align: center;
 }
 
 .link-secondary {
     text-decoration: none;
 }
+footer {
+    background-color: #383440;
+    color: #ddcd96;
+}
+.find-me-at {
+    margin: 2em auto 3em;
+    text-transform: uppercase;
+}
+
+
 
 /* Media queries */
 
