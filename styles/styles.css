@@ -97,13 +97,6 @@ footer {
     margin: 2em auto 3em;
     text-transform: uppercase;
 }
-footer .row .col {
-    align-items: center;
-}
-.socials {
-    align-content: center;
-}
-
 
 /* Media queries */
 
