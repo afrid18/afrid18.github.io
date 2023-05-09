@@ -13,6 +13,7 @@ description = """
 Open Source enthusiast
 Currently Blogging about GSoC'23
 """
+favicon = "favicons/"
 
 
 # Social Icons
