@@ -85,3 +85,6 @@ url = "https://twitter.com/afrid1808"
 
 [mermaid]
 # enable = true
+
+#copyright style
+copyright = "2020-{{ YEAR }}"
