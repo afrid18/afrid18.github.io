@@ -5,7 +5,10 @@ title = 'Afrid Hussain'
 
 
 # theme as git submodule
-theme = 'anatole'
+# theme = 'anatole'
+
+# theme as hugo module
+theme = "github.com/lxndrblz/anatole"
 
 summarylength = 10
 enableEmoji = true
@@ -43,3 +46,11 @@ localizedDates = false
 [[related.indices]]
   name = 'tags'
   weight = 80
+
+
+[module]
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
+    disable = false
