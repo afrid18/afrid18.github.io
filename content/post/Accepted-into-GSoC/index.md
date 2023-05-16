@@ -19,7 +19,7 @@ Welcome to my **blog**, I am happy that you are here, spending your time reading
 
 ## The begining
 
-{{< figure src="../images/opensuse-gsoc.jpeg" title="Google Summer of Code" >}}
+{{< figure src="images/opensuse-gsoc.jpeg" title="Google Summer of Code" >}}
 
 It's nearly been two weeks time since GSoC accepted students have been declared, and here I am still writing my first blog😅, I was busy the previous week. So, lets get going. This will be a start to the GSoC series, I will be consistently documenting my journey on my blog so, tune in atleast biweekly [here](https://afridhussain.tech).
 
@@ -41,6 +41,20 @@ Here are some statistics for GSoC 2023:
 * Top 5 project areas: web development, machine learning, artificial intelligence, data science, and security
 
 
+## Choosing a project!
+
+{{< figure height=300 src="images/rpmlint.jpeg" title="RPMLint" >}}
+
+When it comes to choosing a project for the Google Summer of Code (GSoC) program, it's important to follow your interests and passions. As a beginner, having a keen interest in working with Python technology, I explored various projects listed in the GSoC portal. While there were several intriguing options available, I ultimately decided to focus on the rpmlint project and specifically contribute to building and designing a test suite.
+
+Choosing rpmlint as my project was a personal choice driven by my genuine interest in the domain. The rpmlint project aligns perfectly with my passion for Python and provides an opportunity to work on a widely used package management tool. By selecting a project that resonates with my interests, I can ensure my enthusiasm and dedication remain high throughout the GSoC program.
+
+It's worth mentioning that GSoC offers a diverse range of projects in different domains and technologies. While it's essential to choose a project that aligns with your existing knowledge and skills, it's also possible to explore a completely new domain and learn from scratch. GSoC encourages participants to step out of their comfort zones, take on new challenges, and acquire new skills. However, it's crucial to strike a balance between venturing into new territories and leveraging your existing expertise.
+
+By selecting a project that aligns with your interests and skills, you are more likely to stay motivated and engaged throughout the GSoC program. It's essential to feel excited about the project you choose, as it will drive your dedication and commitment to delivering high-quality work.
+
+
+
 ## How I got started with contributing
 
 Getting started with contributing to open-source projects is an excellent way to showcase your skills and engagement with the community. Here's how I began my journey and eventually secured a place in the Google Summer of Code (GSoC) program.
@@ -56,22 +70,6 @@ It's important to start with small issues labeled as "good first" or "beginner-f
 Building a solid track record of contributions is crucial. The contributions I made helped me in crafting my GSoC proposal. By referencing my contributions, the organization administrators could evaluate my skills, dedication, and potential as a GSoC participant. It's essential to highlight the impact of your contributions and the lessons you learned during the process.
 
 
-
-## Choosing a project!
-
-![rpmlint icon]()
-
-
-When it comes to choosing a project for the Google Summer of Code (GSoC) program, it's important to follow your interests and passions. As a beginner, having a keen interest in working with Python technology, I explored various projects listed in the GSoC portal. While there were several intriguing options available, I ultimately decided to focus on the rpmlint project and specifically contribute to building and designing a test suite.
-
-Choosing rpmlint as my project was a personal choice driven by my genuine interest in the domain. The rpmlint project aligns perfectly with my passion for Python and provides an opportunity to work on a widely used package management tool. By selecting a project that resonates with my interests, I can ensure my enthusiasm and dedication remain high throughout the GSoC program.
-
-It's worth mentioning that GSoC offers a diverse range of projects in different domains and technologies. While it's essential to choose a project that aligns with your existing knowledge and skills, it's also possible to explore a completely new domain and learn from scratch. GSoC encourages participants to step out of their comfort zones, take on new challenges, and acquire new skills. However, it's crucial to strike a balance between venturing into new territories and leveraging your existing expertise.
-
-By selecting a project that aligns with your interests and skills, you are more likely to stay motivated and engaged throughout the GSoC program. It's essential to feel excited about the project you choose, as it will drive your dedication and commitment to delivering high-quality work.
-
-
-
 ## Conclusion
 
 
@@ -85,7 +83,7 @@ I will be documenting my journey on my blog, to follow up, visit my blog once a 
 
 
 
-<p align='center'> Thank You </p>
+<h1 align='center'> Thank You </h1>
 
 
 ### links
