@@ -1,28 +1,24 @@
-baseURL: 'https://afridhussain.tech'
+baseURL: 'https://afridhussain.tech' # Baseurl
 languageCode: en-us
 DefaultContentLanguage: en
 
 title: Afrid Hussain
-author:
-  twitter: "https://twitter.com/afrid1808"
-  github: "https://github.com/afrid18"
-  email: "afridhussain.d@gmail.com"
-  name: "Afrid Hussain"
-  location: "Andhra Pradesh, India"
-  phone: "+917032376276"
 
+# Specifing theme as go modules
 theme: github.com/lxndrblz/anatole
+
 summarylength: 10
+
+#Enabling emojis
 enableEmoji: true
+
+# No Idea what it is
 enableRobotsTXT: true
 pygmentsUseClasses: true
 pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
 localizedDates: false
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+
 taxonomies:
   category: categories
   series: series
@@ -37,6 +33,7 @@ related:
     - name: tags
       weight: 80
 
+# Module settings (Go modules and hugo modules)
 module:
   imports:
     - path: github.com/lxndrblz/anatole

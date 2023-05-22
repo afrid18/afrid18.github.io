@@ -1,0 +1,5 @@
+# Markup language settings
+goldmark:
+  renderer:
+    unsafe: true
+
