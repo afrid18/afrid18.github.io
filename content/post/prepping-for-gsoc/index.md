@@ -44,6 +44,8 @@ Last week, my mentor was busy with an event organized by [OpenSUSE](https://open
 
 Now, let's talk about my project progress. I'm currently in the early stages of development, and I'm excited about the possibilities ahead. The project is shaping up well, and I'm confident that I will achieve the goals set for it.
 
+As of now, still this week will continue as community bonding period. And then OFFICIAL CODING begins, 29 May 2023. To see the complete time line see [here](https://developers.google.com/open-source/gsoc/timeline). This timeline may change if you are seeing this post in future year.
+
 
 <h3 style="text-align:center"> Thank you for joining with me</h3>
 <h3 style="text-align:center"> stay tuned for more updates, see you in the next one</h3>
