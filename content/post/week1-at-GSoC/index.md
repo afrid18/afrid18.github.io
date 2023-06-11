@@ -5,6 +5,8 @@ thumbnail: "images/week1.png"
 Description: "Blog series of my GSoC Journey"
 Tags: ["GSoC", "OpenSUSE"]
 Categories: ["Open Source", "Software Developement"]
+Series: 
+    - "gsoc-weekly-report"
 DisableComments: false
 ---
 
