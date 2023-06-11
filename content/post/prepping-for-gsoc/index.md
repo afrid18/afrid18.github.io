@@ -3,7 +3,7 @@ title: "Prepping for GSoC - 'Community Bonding Period'"
 date: 2023-05-22T19:54:36+05:30
 Description: "In this post I will be sharing how my community bonding period of GSoC'23 is going on. And internal details..."
 thumbnail: 
-  "images/opensuse.png"
+  "images/post2/opensuse.png"
 categories:
   - Google 
   - Open Source
