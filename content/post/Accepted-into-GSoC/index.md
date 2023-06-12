@@ -2,7 +2,7 @@
 title: "I got accepted into GSoC'23 at OpenSUSE"
 author: "Afrid Hussain"
 date: 2023-05-15T12:33:06+05:30
-thumbnail: "images/GSoC.png"
+thumbnail: "images/post1/GSoC.png"
 categories:
   - Google 
   - Open Source
