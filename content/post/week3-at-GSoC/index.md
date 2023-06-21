@@ -12,7 +12,7 @@ DisableComments: false
 
 Hello I am back again with my another GSoC weekly report and in this blog post I will share what I worked on the previous week.
 
-As discussed in the previous [previous post], my mentor and I have decided to go with extending implementation of `FakePkg` class, just to keep everything simple. Whereas with mocking, it would be hard to mock every peice inner piece of functions and other required binary operations. Which eventually consume more design to `Pkg` class itself and this approach will also take more time. However, there a big scope to the project and hence there might be improvements in future.
+As discussed in the previous [previous post], my mentor and I have decided to go with extending implementation of `FakePkg` class, just to keep everything simple. Whereas with mocking, it would be hard to mock every inner piece of functions and other required binary operations. Which eventually consume more design to `Pkg` class itself and this approach will also take more time. However, there a big scope to the project and hence there might be improvements in future.
 
 [previous post]: /post/week2-at-gsoc/
 
@@ -24,7 +24,7 @@ This week, I have made decent progress, also I was able to eliminate 3 following
 
 {{% notice info %}}
 
-> These packages are basically files within python packages that are not necessary to be packaged with rpm files.
+> These binary packages are basically built to have source directory, test directory and docs directories in them so that to test for python packages that have src, test and docs directories. And now, these were eliminated with mocking strategy.
 
 {{% /notice %}}
 
@@ -35,5 +35,6 @@ Looking ahead to the coming week, my plan is to focus on developing more complex
 <h1 align="center"> Thank you </h1>
 
 links:
+- [previous post]
 
 ---
