@@ -10,17 +10,23 @@ Series:
 DisableComments: false
 ---
 
-Hello I am back again with my another GSoC weekly report and in this blog post I will share what I worked on the previous week.
+Hello I am back again with my another GSoC weekly report and in this blog post I will share what I worked on the previous week, which is 3rd week of Google Summer of Code!
 
 As discussed in the previous [previous post], my mentor and I have decided to go with extending implementation of `FakePkg` class, just to keep everything simple. Whereas with mocking, it would be hard to mock every inner piece of functions and other required binary operations. Which eventually consume more design to `Pkg` class itself and this approach will also take more time. However, there a big scope to the project and hence there might be improvements in future.
 
 [previous post]: /post/week2-at-gsoc/
 
-This week, I have made decent progress, also I was able to eliminate 3 following binary rpm packages
+> If you haven't been following or confused, here is the reference to the overview of the project I am working on: [project overview]
 
-- `rpmlint/test/binary/pythoncheck-python-doc-in-site-packages-0-0.x86_64.rpm`
-- `rpmlint/test/binary/pythoncheck-python-src-in-site-packages-0-0.x86_64.rpm`
-- `rpmlint/test/binary/pythoncheck-python-tests-in-site-packages-0-0.x86_64.rpm`
+[project overview]: https://github.com/openSUSE/mentoring/issues/189
+
+This week, I have made decent progress, also I was able to eliminate 5 following binary rpm packages
+
+1. `rpmlint/test/binary/pythoncheck-python-doc-in-package-0-0.x86_64.rpm`
+2. `rpmlint/test/binary/pythoncheck-python-doc-module-in-package-0-0.x86_64.rpm`
+3. `rpmlint/test/binary/pythoncheck-python-doc-in-site-packages-0-0.x86_64.rpm`
+4. `rpmlint/test/binary/pythoncheck-python-src-in-site-packages-0-0.x86_64.rpm`
+5. `rpmlint/test/binary/pythoncheck-python-tests-in-site-packages-0-0.x86_64.rpm`
 
 {{% notice info %}}
 
@@ -36,5 +42,6 @@ Looking ahead to the coming week, my plan is to focus on developing more complex
 
 links:
 - [previous post]
+- [project overview]
 
 ---
