@@ -28,11 +28,9 @@ During the Community Bonding Period, I've had the opportunity to connect with my
 
 As the end of the community bonding period approaches, I've already started making connections with various community members. However, there are still many more connections to be made in the coming days, and I'm really looking forward to joining more community meetings and engaging with fellow participants.
 
-{{% notice info %}}
 
 By the way, I'd like to mention that [OpenSUSE](https://opensuse.org) has an excellent meeting and video conferencing portal, which you can access [here](https://meet.opensuse.org/). It's a fantastic platform with a rich set of features. I highly recommend giving it a try!
 
-{{% /notice %}}
 
 The community is very active, with weekly meetings and plenty of opportunities to interact with others. I've been impressed by the number of people who are actively supporting and participating in the community groups. It's truly inspiring to be part of such a vibrant community.
 

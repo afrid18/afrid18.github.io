@@ -2,9 +2,9 @@
 title: "I got accepted into GSoC'23 at OpenSUSE"
 author: "Afrid Hussain"
 date: 2023-05-15T12:33:06+05:30
-thumbnail: "images/post1/GSoC.png"
+featuredImage: "GSoC.png"
+featuredImagePreview: "GSoC.png"
 categories:
-  - Google 
   - Open Source
   - OpenSUSE
 tags:
@@ -13,6 +13,7 @@ tags:
   - Summerofcode
 draft: false
 ---
+
 
 
 Welcome to my **blog**, I am happy that you are here, spending your time reading my post, I hope you like it.
