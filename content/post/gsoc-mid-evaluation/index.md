@@ -8,7 +8,7 @@ Categories: ['GSoC']
 DisableComments: false
 ---
 
-Hi, I have a great news about my Google Summer of Code Journey. I am gald to share that I have **passed** my Google Summer of Code Mid Evaluation. 
+Hi, I have a great news about my Google Summer of Code Journey. I am glad to share that I have **passed** my Google Summer of Code Mid Evaluation. 
 
 Mid evaluation is not a hard one, indeed the questions asked in the GSoC Evaluation were not more than a feedback questions.
 
