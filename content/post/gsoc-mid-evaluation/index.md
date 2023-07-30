@@ -2,7 +2,7 @@
 title: "GSoC MID EVALUATION: PASSED 🎉"
 date: 2023-07-17T16:36:50+05:30
 Description: "Google Summer of Code MID Evaluation"
-thumbnail: "images/post1/GSoC.png"
+thumbnail: "images/post9/GSoC.png"
 Tags: ['OpenSource', 'GSoC', 'Evaluation']
 Categories: ['GSoC']
 DisableComments: false
