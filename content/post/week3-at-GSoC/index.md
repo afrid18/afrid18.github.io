@@ -28,11 +28,9 @@ This week, I have made decent progress, also I was able to eliminate 5 following
 4. `rpmlint/test/binary/pythoncheck-python-src-in-site-packages-0-0.x86_64.rpm`
 5. `rpmlint/test/binary/pythoncheck-python-tests-in-site-packages-0-0.x86_64.rpm`
 
-{{% notice info %}}
 
 > These binary packages are basically built to have source directory, test directory and docs directories in them so that to test for python packages that have src, test and docs directories. And now, these were eliminated with mocking strategy.
 
-{{% /notice %}}
 
 Here is the commit **[db63a42](https://github.com/afrid18/rpmlint/commit/db63a4226b2fc50e169dca348fb5aa9a256fccc9)** if you are interested.
 

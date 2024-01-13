@@ -2,7 +2,10 @@
 title: "I got accepted into GSoC'23 at OpenSUSE"
 author: "Afrid Hussain"
 date: 2023-05-15T12:33:06+05:30
-thumbnail: "images/post1/GSoC.png"
+cover:
+    image: images/post1/GSoC.png
+    caption: "Google Summer of Code"
+    relative: true
 categories:
   - Google 
   - Open Source
@@ -43,7 +46,7 @@ Here are some statistics for GSoC 2023:
 
 ## Choosing a project!
 
-{{< figure height=300 src="images/rpmlint.jpeg" title="RPMLint" >}}
+{{< figure height=300 src="images/rpmlint.jpeg" align=center title="RPMLint" >}}
 
 When it comes to choosing a project for the Google Summer of Code (GSoC) program, it's important to follow your interests and passions. As a beginner, having a keen interest in working with Python technology, I explored various projects listed in the GSoC portal. While there were several intriguing options available, I ultimately decided to focus on the rpmlint project and specifically contribute to building and designing a test suite.
 
