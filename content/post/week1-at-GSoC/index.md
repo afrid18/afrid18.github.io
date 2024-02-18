@@ -12,7 +12,7 @@ Series:
 DisableComments: false
 ---
 
-Hi :waving_hand:, Welcome back again, It has been a week since official start of coding period at Google Summer of Code. In this blog post, I am going to share my experience as a GSoC contributor at [@OpenSUSE](https://opensuse.org). OpenSUSE has been great to me, people in it are awesome, my mentor is awesome too, he has got my back everytime I am stuck. I am really thankful for having such mentor. Now, Since past week I have been contributing to [rpmlint](https://github.com/rpm-software-management/rpmlint). I will share my coding experience here in this blog post..
+Hi 👋🏻, Welcome back again, It has been a week since official start of coding period at Google Summer of Code. In this blog post, I am going to share my experience as a GSoC contributor at [@OpenSUSE](https://opensuse.org). OpenSUSE has been great to me, people in it are awesome, my mentor is awesome too, he has got my back everytime I am stuck. I am really thankful for having such mentor. Now, Since past week I have been contributing to [rpmlint](https://github.com/rpm-software-management/rpmlint). I will share my coding experience here in this blog post..
 
 ---
 
