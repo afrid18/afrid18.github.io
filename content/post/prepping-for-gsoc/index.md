@@ -2,8 +2,11 @@
 title: "Prepping for GSoC - 'Community Bonding Period'"
 date: 2023-05-22T19:54:36+05:30
 Description: "In this post I will be sharing how my community bonding period of GSoC'23 is going on. And internal details..."
-thumbnail: 
-  "images/post2/opensuse.png"
+# thumbnail: 
+#   "images/post2/opensuse.png"
+cover:
+  image: "images/post2/opensuse.png"
+  relative: false # To use relative path for cover image, used in hugo Page-bundles
 categories:
   - Google 
   - Open Source

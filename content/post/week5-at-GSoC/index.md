@@ -2,7 +2,10 @@
 title: "GSoC: Week5"
 date: 2023-07-09T17:24:20+05:30
 Description: "My fifth week at Google has been good. In this blog I will share my learnings and progress for the same"
-thumbnail: "images/post7/week5.png"
+# thumbnail: "images/post7/week5.png"
+cover:
+  image: "images/post7/week5.png"
+  relative: false
 Tags: ["OpenSUSE", "Open Source", "Google", "Summer of Code"]
 Categories: ["Open source", "Programming"]
 Series:

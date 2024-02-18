@@ -2,7 +2,10 @@
 title: "GSoC: Week9"
 date: 2023-08-04T20:05:08+05:30
 Description: "In this blog post, I would like to share my weekly progress of Google Summer of code with OpenSUSE"
-thumbnail: "images/post12/week9.png"
+# thumbnail: "images/post12/week9.png"
+cover:
+  image: "images/post12/week9.png"
+  relative: false
 Tags: ["OpenSUSE", "Open Source", "Google", "Summer of Code"]
 Categories: ["Open source", "Programming"]
 Series:

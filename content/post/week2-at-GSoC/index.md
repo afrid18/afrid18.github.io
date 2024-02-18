@@ -2,7 +2,10 @@
 title: "GSoC: Week2"
 date: 2023-06-11T14:23:52+05:30
 Description: "My Second Week at Google Summer of Code 2023 at OpenSUSE"
-thumbnail: "images/post4/week2.png"
+# thumbnail: "images/post4/week2.png"
+cover:
+  image: "images/post4/week2.png"
+  relative: false
 Tags: ["OpenSUSE", "Open Source", "Google", "Summer of Code"]
 Categories: ["Open source", "Programming"]
 Series: 

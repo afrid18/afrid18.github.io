@@ -1,11 +1,15 @@
 ---
 title: "GSoC MID EVALUATION: PASSED 🎉"
+author: "Afrid Hussain"
 date: 2023-07-17T16:36:50+05:30
-Description: "Google Summer of Code MID Evaluation"
-thumbnail: "images/post9/mid-term.png"
-Tags: ["OpenSource", "GSoC", "Evaluation"]
-Categories: ["GSoC"]
-DisableComments: false
+# Description: "Google Summer of Code MID Evaluation"
+cover:
+    image: images/post9/mid-term.png
+    caption: "Google Summer of Code"
+    relative: true
+# Tags: ["OpenSource", "GSoC", "Evaluation"]
+# Categories: ["GSoC"]
+# DisableComments: false
 ---
 
 Hi, I have a great news about my Google Summer of Code Journey. I am glad to share that I have **passed** my Google Summer of Code Mid Evaluation.

@@ -2,7 +2,10 @@
 title: "GSoC: Week12"
 date: 2023-08-27T19:36:53+05:30
 Description: "In this blog post, I would like to share my weekly progress of Google Summer of code with OpenSUSE"
-thumbnail: "images/post15/week12.png"
+cover:
+    image: images/post15/week12.png
+    caption: "Google Summer of Code"
+    relative: true
 Tags: ["OpenSUSE", "Open Source", "Google", "Summer of Code"]
 Categories: ["Open source", "Programming"]
 Series:

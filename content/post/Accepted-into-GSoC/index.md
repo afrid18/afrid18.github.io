@@ -24,7 +24,7 @@ Welcome to my **blog**, I am happy that you are here, spending your time reading
 
 {{< figure src="images/opensuse-gsoc.jpeg" title="Google Summer of Code" >}}
 
-It's nearly been two weeks time since GSoC accepted students have been declared, and here I am still writing my first blog😅, I was busy the previous week. So, lets get going. This will be a start to the GSoC series, I will be consistently documenting my journey on my blog so, tune in atleast biweekly [here](https://afridhussain.tech).
+It's nearly been two weeks time since GSoC accepted students have been declared, and here I am still writing my first blog😅, I was busy the previous week. So, lets get going. This will be a start to the GSoC series, I will be consistently documenting my journey on my blog so, tune in atleast biweekly [here](https://afrid.in).
 
 ## What is GSoC
 
@@ -90,7 +90,7 @@ I will be documenting my journey on my blog, to follow up, visit my blog once a 
 
 
 ### links
-- https://afridhussain.tech
+- https://afrid.in
 - https://github.com/rpm-software-management/rpmlint/pull/1021
 - https://github.com/rpm-software-management/rpmlint/pulls?q=is%3Apr+author%3Aafrid18
 

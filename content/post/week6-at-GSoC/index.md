@@ -2,7 +2,10 @@
 title: "GSoC: Week6"
 date: 2023-07-17T15:56:39+05:30
 Description: "In this blog, I would like to share my progress of Google Summer of Code 2023, for week 6"
-thumbnail: "images/post8/week6.png"
+# thumbnail: "images/post8/week6.png"
+cover:
+  image: "images/post8/week6.png"
+  relative: false
 Tags: ["OpenSUSE", "Open Source", "Google", "Summer of Code"]
 Categories: ["Open source", "Programming"]
 Series:

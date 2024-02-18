@@ -1,8 +1,9 @@
-baseURL: 'https://afridhussain.tech'
+baseURL: 'https://afrid.in'
 title: Afrid Hussain
 languageCode: en-us
 DefaultContentLanguage: en
 paginate: 5
+contentDir: "content"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -59,13 +60,13 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: Afrid Hussain
     subtitle: "Working on myself!"
-    imageUrl: "static/images/solana.jpeg"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    # imageUrl: ""
+    # imageWidth: 120
+    # imageHeight: 120
+    # imageTitle: my image
     buttons:
       - name: Posts
         url: posts
@@ -78,12 +79,14 @@ params:
     Content: Learning Java and Go. Many more posts to come soon!
 
   socialIcons:
-    - name: x
-      url: "https://x.com/afrid1808"
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/22735694/afrid18"
     - name: github
       url: "https://github.com/afrid18"
+    - name: x
+      url: "https://x.com/afrid1808"
+    - name: reddit
+      url: "https://reddit.com/u/afrid1808"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/22735694/afrid18"
 
   # analytics:
   #   google:
@@ -93,11 +96,11 @@ params:
   #   yandex:
   #     SiteVerificationTag: "XYZabc"
 
-  cover:
-    hidden: false # hide everywhere but not in structured data
-    hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
-    linkFullImages: true
+  # cover:
+  #   hidden: false # hide everywhere but not in structured data
+  #   hiddenInList: false # hide on list pages and home
+  #   hiddenInSingle: false # hide on single page
+  #   linkFullImages: false
 
   editPost:
     URL: "https://github.com/afrid18/afrid18.github.io/tree/main/content"
@@ -113,7 +116,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:

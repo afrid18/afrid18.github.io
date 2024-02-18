@@ -1,7 +1,9 @@
 ---
 title: "GSoC:  Week1"
 date: 2023-06-03T12:20:45+05:30
-thumbnail: "images/post3/week1.png"
+cover:
+  image: "images/post3/week1.png"
+  relative: false
 Description: "Blog series of my GSoC Journey"
 Tags: ["GSoC", "OpenSUSE"]
 Categories: ["Open Source", "Software Developement"]
