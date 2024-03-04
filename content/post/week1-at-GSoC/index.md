@@ -26,7 +26,8 @@ I and my mentor had a talk on how to mock packages, and we have decided to move 
 The past week, I have created a new utility or a helper function that basically take rpm details and convert it into a `Pkg` or `FakePkg` object.
 
 Here look at an overview of the process
-![Basic pictorial explaination of test suite](images/week1-gsoc.png)
+
+{{< figure src="images/week1-gsoc.png" title="Basic pictorial explaination of test suite" align="center">}}
 
 Here is the previous code...
 ```python3
@@ -71,7 +72,7 @@ def get_tested_mock_package(files=None):
 
 This is so far I was able to go into codebase. I will be posting many more updates soon here on my blog. I have yet learn and contribute to rpmlint and I have a big learning week ahead.
 
-See you in the next one!:victory_hand:
+See you in the next one!✌🏻
 
 
 <h1 align="center"> Thank You </h1>

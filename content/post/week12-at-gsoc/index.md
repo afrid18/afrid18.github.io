@@ -20,7 +20,7 @@ This week has been amazing. I had the opportunity to visit the SUSE Office in Ba
 
 ## Progress [############] : 12 Weeks DONE!
 
-{{< figure height=600 src="images/suse-office.jpeg" title="SUSE Office Bangalore" >}}
+{{< figure height=600 src="images/suse-office.jpeg" title="SUSE Office Bangalore" align="center">}}
 
 **_A Day to remember: August 24, 2023:_**
 

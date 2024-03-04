@@ -2,8 +2,9 @@ baseURL: 'https://afrid.in'
 title: Afrid Hussain
 languageCode: en-us
 DefaultContentLanguage: en
-paginate: 5
+paginate: 8
 contentDir: "content"
+screen-width: 1440
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -62,7 +63,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Afrid Hussain
-    subtitle: "Working on myself!"
+    subtitle: "I tinker with linux and contribute to open source. BTW I use vim!"
     # imageUrl: ""
     # imageWidth: 120
     # imageHeight: 120
@@ -120,10 +121,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: search
+      name: search
+      url: /search/
       weight: 10
+    - identifier: résumé
+      name: résumé
+      url: /resume/
+      weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 30
     - identifier: tags
       name: tags
       url: /tags/
