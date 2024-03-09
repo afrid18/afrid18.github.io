@@ -55,13 +55,13 @@ params:
     # safari_pinned_tab: "./static/favicons/favicon.ico"
 
   label:
-    text: "Home"
-    # icon: /apple-touch-icon.png
-    iconHeight: 35
+    text: "Afrid Hussain"
+    icon: /apple-touch-icon.png
+    iconHeight: 25
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: Afrid Hussain
     subtitle: "I tinker with linux and contribute to open source. BTW I use vim!"
     # imageUrl: ""
@@ -76,8 +76,12 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hello \U0001F44B, I am Afrid"
-    Content: Learning Java and Go. Many more posts to come soon!
+    Title: "Hi there! \U0001F44B"
+    Content: >
+      I'm Afrid, a software engineer who loves to play with linux systems and contribute to open source. I am currently focused on learning system programming. I use **_vim_** BTW!
+
+        - **[Résumé](/resume/):** Find my resume here!
+        - **[about](/about/):** Learn more about me here!
 
   socialIcons:
     - name: github
@@ -97,11 +101,11 @@ params:
   #   yandex:
   #     SiteVerificationTag: "XYZabc"
 
-  # cover:
-  #   hidden: false # hide everywhere but not in structured data
-  #   hiddenInList: false # hide on list pages and home
-  #   hiddenInSingle: false # hide on single page
-  #   linkFullImages: false
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+    linkFullImages: true
 
   editPost:
     URL: "https://github.com/afrid18/afrid18.github.io/tree/main/content"
@@ -121,6 +125,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 10
     - identifier: search
       name: search
       url: /search/
@@ -133,18 +141,18 @@ menu:
       name: archives
       url: /archives/
       weight: 30
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: GitHub
-      name: GitHub
-      url: https://github.com/afrid18
-      weight: 30
-    - identifier: Twitter
-      name: Twitter
-      url: https://twitter.com/afrid1808
-      weight: 30
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 20
+    # - identifier: GitHub
+    #   name: GitHub
+    #   url: https://github.com/afrid18
+    #   weight: 30
+    # - identifier: Twitter
+    #   name: Twitter
+    #   url: https://twitter.com/afrid1808
+    #   weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
