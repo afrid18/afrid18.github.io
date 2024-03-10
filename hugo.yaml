@@ -80,8 +80,8 @@ params:
     Content: >
       I'm Afrid, a software engineer who loves to play with linux systems and contribute to open source. I am currently focused on learning system programming. I use **_vim_** BTW!
 
-        - **[Résumé](/resume/):** Find my resume here!
-        - **[about](/about/):** Learn more about me here!
+        > * **[Résumé](/resume/):** Find my resume here!
+        > * **[about](/about/):** Learn more about me here!
 
   socialIcons:
     - name: github
