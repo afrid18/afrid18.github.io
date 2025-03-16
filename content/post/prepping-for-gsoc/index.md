@@ -39,7 +39,7 @@ The community is very active, with weekly meetings and plenty of opportunities t
 
 Last week, my mentor was busy with an event organized by [OpenSUSE](https://opensuse.org). He gave a talk during the event, and if you're interested, you can watch the complete talk by my mentor, Daniel, by following the link in his tweet:
 
-{{< tweet user="danigm" id="1659164542872559617" >}}
+{{< x user="danigm" id="1659164542872559617" >}}
 
 ## What's Happening with My Project?
 
